@@ -34,7 +34,7 @@ static char playerRateContext;
 }
 
 @property (nonatomic, strong, readwrite) AVPlayer *player;  // re-defined as read/write
-@property (nonatomic, strong) AVAsset *asset;
+
 @property (nonatomic, strong) AVPlayerItem *playerItem;
 @property (nonatomic, readonly) CMTime CMDuration;
 @property (nonatomic, strong) id playerTimeObserver;

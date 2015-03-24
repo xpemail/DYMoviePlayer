@@ -5,5 +5,5 @@
  
 
 @interface DYMoviePlayer : NSObject<DYMoviePlayerActionDelegate>
- 
+ @property (nonatomic, strong) AVAsset *asset;
 @end
