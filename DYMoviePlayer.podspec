@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
  
 
   s.name         = "DYMoviePlayer"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "DYMoviePlayer  "
  
 
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.ios.frameworks = 'UIKit','AVFoundation','QuartzCore','MediaPlayer'
  
-  s.source = { :git => 'https://github.com/xpemail/DYMoviePlayer.git' , :tag => '1.0.2'} 
+  s.source = { :git => 'https://github.com/xpemail/DYMoviePlayer.git' , :tag => '1.0.3'}
  
   s.requires_arc = true
    

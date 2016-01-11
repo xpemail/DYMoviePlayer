@@ -72,7 +72,8 @@ static char playerRateContext;
 
 + (void)initialize {
     if (self == [DYMoviePlayer class]) {
-        [self setAudioSessionCategory:DYMoviePlayerAudioSessionCategoryPlayback];
+//        [self setAudioSessionCategory:DYMoviePlayerAudioSessionCategoryPlayback];
+        [self setAudioSessionCategory:DYMoviePlayerAudioSessionCategoryAmbient];//不独占
     }
 }
 
